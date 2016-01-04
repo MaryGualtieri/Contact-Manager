@@ -12,3 +12,10 @@ var friends = {
         address: ["825 Holly Lane, Plantation, FL 33317"]
         }
     }
+
+   var list = function(obj) {
+    for(var prop in obj) {
+    console.log(prop);
+         }
+    };
+    list(friends);
