@@ -2,11 +2,11 @@ var friends = {
     bill: {
         firstName: "Bill" ,
         lastName: "Bob" ,
-        number: 2
+        number: 234-543-3456
         },
     steve: {
         firstName: "Steve",
         lastName: "Joe",
-        number: 3
+        number: 313-232-4567
         }
     }
