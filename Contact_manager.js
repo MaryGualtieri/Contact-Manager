@@ -18,4 +18,16 @@ var friends = {
     console.log(prop);
          }
     };
-    list(friends);
+
+    // list(friends);
+
+    var search = function(name){
+    for(var prop in friends)
+    if(name === friends[prop].firstName){
+    console.log(friends[prop]);
+    return friends[prop];
+    }
+    }
+    list();
+    search("bill");
+    search("steve");
